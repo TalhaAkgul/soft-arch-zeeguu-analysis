@@ -1,0 +1,953 @@
+{
+  "get_user_details": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "getUserDetails"
+    },
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "getUserDetails"
+    }
+  ],
+  "validate": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "isValidSession"
+    }
+  ],
+  "BASE_URL/add_user/${...}": [
+    {
+      "method": "FETCH",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "addUser"
+    }
+  ],
+  "delete_user": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "deleteUser"
+    }
+  ],
+  "BASE_URL/add_basic_user/${...}": [
+    {
+      "method": "FETCH",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "addBasicUser"
+    }
+  ],
+  "BASE_URL/session/${...}": [
+    {
+      "method": "FETCH",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "logIn"
+    }
+  ],
+  "send_code/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "sendCode"
+    }
+  ],
+  "reset_password/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\accounts.js",
+      "function": "resetPassword"
+    }
+  ],
+  "upload_user_activity_data": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\activityLogging.js",
+      "function": "logUserActivity"
+    }
+  ],
+  "/days_since_last_use": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\activityLogging.js",
+      "function": "daysSinceLastUse"
+    }
+  ],
+  "system_languages": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\classDef.js",
+      "function": "getSystemLanguages"
+    }
+  ],
+  "BASE_URL${...}": [
+    {
+      "method": "POST",
+      "file": "..\\src\\api\\classDef.js",
+      "function": "apiPost"
+    }
+  ],
+  "scheduled_bookmarks_to_study/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getUserBookmarksToStudy"
+    }
+  ],
+  "bookmarks_in_pipeline": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getUserBookmarksInPipeline"
+    },
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getUserBookmarksInPipeline"
+    }
+  ],
+  "bookmarks_to_learn_not_scheduled": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getBookmarksToLearn"
+    },
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getBookmarksToLearn"
+    }
+  ],
+  "new_bookmarks_to_study/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getNewBookmarksToStudy"
+    }
+  ],
+  "top_bookmarks_to_study_count": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getTopBookmarksToStudyCount"
+    }
+  ],
+  "top_bookmarks_to_study/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getTopBookmarksToStudy"
+    }
+  ],
+  "get_total_bookmarks_in_pipeline": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getTotalBookmarksInPipeline"
+    }
+  ],
+  "has_bookmarks_to_review": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "hasBookmarksToReview"
+    }
+  ],
+  "has_bookmarks_in_pipeline_to_review": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "hasBookmarksInPipelineToReview"
+    }
+  ],
+  "report_exercise_outcome": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "uploadExerciseFeedback"
+    }
+  ],
+  "similar_words/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "wordsSimilarTo"
+    }
+  ],
+  "/create_confusion_words": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getConfusionWords"
+    }
+  ],
+  "/annotate_clues": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "annotateClues"
+    }
+  ],
+  "/get_shorter_similar_sents_in_article": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getShorterSimilarSentsInArticle"
+    }
+  ],
+  "/get_smaller_context": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercises.js",
+      "function": "getSmallerContext"
+    }
+  ],
+  "exercise_session_start": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": "startLoggingExerciseSessionToDB"
+    }
+  ],
+  "exercise_session_update": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": "updateExerciseSession"
+    }
+  ],
+  "exercise_session_end": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": "reportExerciseSessionEnd"
+    }
+  ],
+  "is_feature_enabled/${...}": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\feature_toggles.js",
+      "function": "isFeatureEnabled"
+    }
+  ],
+  "/tokenize_text": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\nlp.js",
+      "function": "tokenizeText"
+    }
+  ],
+  "/tokenize_sents": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\nlp.js",
+      "function": "getSents"
+    }
+  ],
+  "/get_paragraphs": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\nlp.js",
+      "function": "getParagraphs"
+    }
+  ],
+  "upload_own_text": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": "uploadOwnText"
+    }
+  ],
+  "update_own_text/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": "updateOwnText"
+    }
+  ],
+  "delete_own_text/${...}": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": "deleteOwnText"
+    }
+  ],
+  "own_texts": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": "getOwnTexts"
+    }
+  ],
+  "send_article_to_colleague": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": "shareTextWithColleague"
+    }
+  ],
+  "reading_session_start": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\reading_sessions.js",
+      "function": "readingSessionCreate"
+    }
+  ],
+  "reading_session_update": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\reading_sessions.js",
+      "function": "readingSessionUpdate"
+    }
+  ],
+  "text_to_speech": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\speech.js",
+      "function": "fetchLinkToSpeechMp3"
+    }
+  ],
+  "mp3_of_full_article": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\speech.js",
+      "function": "getLinkToFullArticleReadout"
+    }
+  ],
+  "join_cohort": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\student.js",
+      "function": "joinCohort"
+    }
+  ],
+  "leave_cohort/${...}": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\student.js",
+      "function": "leaveCohort"
+    }
+  ],
+  "/student_info": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\student.js",
+      "function": "getStudent"
+    }
+  ],
+  "/user_info/${...}/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "loadUserInfo"
+    }
+  ],
+  "/user_info": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getStudentInfo"
+    }
+  ],
+  "/student_reading_sessions": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getReadingSessions"
+    }
+  ],
+  "/student_exercise_history": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getExerciseHistory"
+    }
+  ],
+  "/student_learned_words": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getLearnedWords"
+    }
+  ],
+  "/student_words_not_studied": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getNonStudiedWords"
+    }
+  ],
+  "/student_activity_overview": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": "getStudentActivityOverview"
+    }
+  ],
+  "is_teacher": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "isTeacher"
+    }
+  ],
+  "teacher_texts": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "getTeacherTexts"
+    }
+  ],
+  "/create_own_cohort": [
+    {
+      "method": "APIPOST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "createCohort"
+    }
+  ],
+  "/remove_cohort/${...}": [
+    {
+      "method": "APIPOST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "deleteCohort"
+    }
+  ],
+  "/update_cohort/${...}": [
+    {
+      "method": "APIPOST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "updateCohort"
+    }
+  ],
+  "/add_colleague_to_cohort": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "addColleagueToCohort"
+    }
+  ],
+  "/get_cohorts_for_article/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "getCohortFromArticle"
+    }
+  ],
+  "cohorts_info": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "getCohortsInfo"
+    }
+  ],
+  "add_article_to_cohort": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "addArticleToCohort"
+    }
+  ],
+  "delete_article_from_cohort": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "deleteArticleFromCohort"
+    }
+  ],
+  "/users_from_cohort/${...}/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "getStudents"
+    }
+  ],
+  "/cohort_name/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "getCohortName"
+    }
+  ],
+  "parse_url": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "parseArticleFromUrl"
+    }
+  ],
+  "remove_user_from_cohort/${...}/${...}": [
+    {
+      "method": "_GETPLAINTEXT",
+      "file": "..\\src\\api\\teacher.js",
+      "function": "removeStudentFromCohort"
+    }
+  ],
+  "/get_one_translation/${...}/${...}": [
+    {
+      "method": "APIPOST",
+      "file": "..\\src\\api\\translations.js",
+      "function": "getOneTranslation"
+    }
+  ],
+  "get_multiple_translations/${...}/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\translations.js",
+      "function": "getMultipleTranslations"
+    }
+  ],
+  "contribute_translation/${...}/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\translations.js",
+      "function": "contributeTranslation"
+    }
+  ],
+  "/update_bookmark/${...}": [
+    {
+      "method": "APIPOST",
+      "file": "..\\src\\api\\translations.js",
+      "function": "updateBookmark"
+    }
+  ],
+  "user_articles/recommended": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getUserArticles"
+    }
+  ],
+  "user_articles/recommended/${...}/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getMoreUserArticles"
+    }
+  ],
+  "user_articles/foryou": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getRecommendedArticles"
+    }
+  ],
+  "user_articles/saved/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getSavedUserArticles"
+    }
+  ],
+  "search/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "search"
+    }
+  ],
+  "latest_search/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "latestSearch"
+    }
+  ],
+  "search/${...}/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "searchMore"
+    }
+  ],
+  "user_articles/starred_or_liked": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getBookmarkedArticles"
+    }
+  ],
+  "cohort_articles": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getCohortArticles"
+    }
+  ],
+  "user_article?article_id=${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getArticleInfo"
+    }
+  ],
+  "user_article": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "setArticleInfo"
+    }
+  ],
+  "article_opened": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "setArticleOpened"
+    }
+  ],
+  "/find_or_create_article": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "findOrCreateArticle"
+    }
+  ],
+  "/remove_ml_suggestion": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "removeMLSuggestion"
+    }
+  ],
+  "/make_personal_copy": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "makePersonalCopy"
+    }
+  ],
+  "/remove_personal_copy": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "removePersonalCopy"
+    }
+  ],
+  "/is_article_language_supported": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "isArticleLanguageSupported"
+    }
+  ],
+  "/send_feedback": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "sendFeedback"
+    }
+  ],
+  "/article_difficulty_feedback": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "submitArticleDifficultyFeedback"
+    }
+  ],
+  "/get_unfinished_user_reading_sessions": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userArticles.js",
+      "function": "getUnfinishedUserReadingSessions"
+    }
+  ],
+  "user_languages": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "getUserLanguages"
+    }
+  ],
+  "user_settings": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "saveUserDetails"
+    }
+  ],
+  "user_languages/modify": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "modifyCEFRlevel"
+    }
+  ],
+  "user_preferences": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "getUserPreferences"
+    }
+  ],
+  "save_user_preferences": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userDetails.js",
+      "function": "saveUserPreferences"
+    }
+  ],
+  "available_topics": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "getAvailableTopics"
+    }
+  ],
+  "subscribed_topics": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "getSubscribedTopics"
+    }
+  ],
+  "subscribed_searches": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "getSubscribedSearchers"
+    }
+  ],
+  "subscribe_topic": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "subscribeToTopic"
+    }
+  ],
+  "unsubscribe_topic": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "unsubscribeFromTopic"
+    }
+  ],
+  "subscribe_search/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "subscribeToSearch"
+    }
+  ],
+  "unsubscribe_search": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "unsubscribeFromSearch"
+    }
+  ],
+  "subscribe_to_email_search/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "subscribeToEmailSearch"
+    }
+  ],
+  "unsubscribe_from_email_search/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "unsubscribeFromEmailSearch"
+    }
+  ],
+  "filtered_topics": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "getExcludedTopics"
+    }
+  ],
+  "filtered_searches": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "getUnwantedKeywords"
+    }
+  ],
+  "filter_topic": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "excludeTopic"
+    }
+  ],
+  "filter_search/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "addUnwantedKeyword"
+    }
+  ],
+  "unfilter_search": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "removeUnwantedKeyword"
+    }
+  ],
+  "unfilter_topic": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userInterests.js",
+      "function": "unexcludeTopic"
+    }
+  ],
+  "activity_by_day": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userStats.js",
+      "function": "getUserActivityByDay"
+    }
+  ],
+  "user_video?video_id=${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userVideos.js",
+      "function": "getVideoInfo"
+    }
+  ],
+  "video_set_playback": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userVideos.js",
+      "function": "updatePlaybackPosition"
+    }
+  ],
+  "video_opened": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userVideos.js",
+      "function": "setVideoOpened"
+    }
+  ],
+  "bookmarks_by_day": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "getBookmarksByDay"
+    }
+  ],
+  "bookmark_counts_by_date": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "getBookmarksCountsByDate"
+    }
+  ],
+  "starred_bookmarks/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "starredBookmarks"
+    }
+  ],
+  "learned_bookmarks/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "learnedBookmarks"
+    }
+  ],
+  "total_learned_bookmarks": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "totalLearnedBookmarks"
+    }
+  ],
+  "top_bookmarks/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "topBookmarks"
+    }
+  ],
+  "bookmarks_for_article/${...}": [
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "bookmarksForArticle"
+    }
+  ],
+  "bookmarks_to_study_for_article/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "bookmarksToStudyForArticle"
+    },
+    {
+      "method": "_GETJSON",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "bookmarksToStudyForArticle"
+    }
+  ],
+  "unstar_bookmark/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "unstarBookmark"
+    }
+  ],
+  "star_bookmark/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "starBookmark"
+    }
+  ],
+  "delete_bookmark/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "deleteBookmark"
+    }
+  ],
+  "is_fit_for_study/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "setIsFitForStudy"
+    }
+  ],
+  "not_fit_for_study/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "setNotFitForStudy"
+    }
+  ],
+  "use_in_exercises/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "userSetForExercises"
+    }
+  ],
+  "dont_use_in_exercises/${...}": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\userWords.js",
+      "function": "userSetNotForExercises"
+    }
+  ],
+  "watching_session_start": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\watching_sessions.js",
+      "function": "createWatchingSession"
+    }
+  ],
+  "watching_session_update": [
+    {
+      "method": "_POST",
+      "file": "..\\src\\api\\watching_sessions.js",
+      "function": "updateWatchingSession"
+    }
+  ],
+  "https://raw.githubusercontent.com/zeeguu/browser-extension/main/PRIVACY.md": [
+    {
+      "method": "FETCH",
+      "file": "..\\src\\pages\\onboarding\\CreateAccount.js",
+      "function": null
+    }
+  ]
+}

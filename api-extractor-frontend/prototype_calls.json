@@ -1,0 +1,534 @@
+{
+  "_getJSON": [
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\student.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userStats.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userVideos.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    }
+  ],
+  "_getPlainText": [
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\activityLogging.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\feature_toggles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\student.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    }
+  ],
+  "_post": [
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\activityLogging.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercises.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\exercise_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\nlp.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\nlp.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\nlp.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\ownTexts.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\reading_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\reading_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\reading_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\speech.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\speech.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\student.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\studentStatsForTeachers.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\translations.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\translations.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userArticles.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userInterests.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userVideos.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userVideos.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userWords.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\watching_sessions.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\watching_sessions.js",
+      "function": null
+    }
+  ],
+  "apiLog": [
+    {
+      "file": "..\\src\\api\\accounts.js",
+      "function": null
+    }
+  ],
+  "apiPost": [
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\teacher.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\translations.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\translations.js",
+      "function": null
+    }
+  ],
+  "_appendSessionToUrl": [
+    {
+      "file": "..\\src\\api\\translations.js",
+      "function": null
+    },
+    {
+      "file": "..\\src\\api\\userDetails.js",
+      "function": null
+    }
+  ]
+}

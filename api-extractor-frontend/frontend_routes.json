@@ -1,0 +1,697 @@
+[
+  {
+    "path": "/get_user_details",
+    "method": "GET",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/get_user_details",
+    "method": "GET",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/validate",
+    "method": "GET",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/add_user/",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/delete_user",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/add_basic_user/",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/session/",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/send_code/",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/reset_password/",
+    "method": "POST",
+    "file": "..\\src\\api\\accounts.js"
+  },
+  {
+    "path": "/upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\api\\activityLogging.js"
+  },
+  {
+    "path": "/days_since_last_use",
+    "method": "GET",
+    "file": "..\\src\\api\\activityLogging.js"
+  },
+  {
+    "path": "/system_languages",
+    "method": "GET",
+    "file": "..\\src\\api\\classDef.js"
+  },
+  {
+    "path": "/BASE_URL",
+    "method": "POST",
+    "file": "..\\src\\api\\classDef.js"
+  },
+  {
+    "path": "/scheduled_bookmarks_to_study/",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/bookmarks_in_pipeline",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/bookmarks_in_pipeline",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/bookmarks_to_learn_not_scheduled",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/bookmarks_to_learn_not_scheduled",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/new_bookmarks_to_study/",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/top_bookmarks_to_study_count",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/top_bookmarks_to_study/",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/get_total_bookmarks_in_pipeline",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/has_bookmarks_to_review",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/has_bookmarks_in_pipeline_to_review",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/report_exercise_outcome",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/report_exercise_outcome",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/similar_words/",
+    "method": "GET",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/create_confusion_words",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/annotate_clues",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/get_shorter_similar_sents_in_article",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/get_smaller_context",
+    "method": "POST",
+    "file": "..\\src\\api\\exercises.js"
+  },
+  {
+    "path": "/exercise_session_start",
+    "method": "POST",
+    "file": "..\\src\\api\\exercise_sessions.js"
+  },
+  {
+    "path": "/exercise_session_update",
+    "method": "POST",
+    "file": "..\\src\\api\\exercise_sessions.js"
+  },
+  {
+    "path": "/exercise_session_end",
+    "method": "POST",
+    "file": "..\\src\\api\\exercise_sessions.js"
+  },
+  {
+    "path": "/is_feature_enabled/",
+    "method": "GET",
+    "file": "..\\src\\api\\feature_toggles.js"
+  },
+  {
+    "path": "/tokenize_text",
+    "method": "POST",
+    "file": "..\\src\\api\\nlp.js"
+  },
+  {
+    "path": "/tokenize_sents",
+    "method": "POST",
+    "file": "..\\src\\api\\nlp.js"
+  },
+  {
+    "path": "/get_paragraphs",
+    "method": "POST",
+    "file": "..\\src\\api\\nlp.js"
+  },
+  {
+    "path": "/upload_own_text",
+    "method": "POST",
+    "file": "..\\src\\api\\ownTexts.js"
+  },
+  {
+    "path": "/update_own_text/",
+    "method": "POST",
+    "file": "..\\src\\api\\ownTexts.js"
+  },
+  {
+    "path": "/delete_own_text/",
+    "method": "GET",
+    "file": "..\\src\\api\\ownTexts.js"
+  },
+  {
+    "path": "/own_texts",
+    "method": "GET",
+    "file": "..\\src\\api\\ownTexts.js"
+  },
+  {
+    "path": "/send_article_to_colleague",
+    "method": "POST",
+    "file": "..\\src\\api\\ownTexts.js"
+  },
+  {
+    "path": "/reading_session_start",
+    "method": "POST",
+    "file": "..\\src\\api\\reading_sessions.js"
+  },
+  {
+    "path": "/reading_session_start",
+    "method": "POST",
+    "file": "..\\src\\api\\reading_sessions.js"
+  },
+  {
+    "path": "/reading_session_update",
+    "method": "POST",
+    "file": "..\\src\\api\\reading_sessions.js"
+  },
+  {
+    "path": "/text_to_speech",
+    "method": "POST",
+    "file": "..\\src\\api\\speech.js"
+  },
+  {
+    "path": "/mp3_of_full_article",
+    "method": "POST",
+    "file": "..\\src\\api\\speech.js"
+  },
+  {
+    "path": "/join_cohort",
+    "method": "POST",
+    "file": "..\\src\\api\\student.js"
+  },
+  {
+    "path": "/leave_cohort/",
+    "method": "GET",
+    "file": "..\\src\\api\\student.js"
+  },
+  {
+    "path": "/student_info",
+    "method": "GET",
+    "file": "..\\src\\api\\student.js"
+  },
+  {
+    "path": "/user_info/",
+    "method": "GET",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/user_info",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/student_reading_sessions",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/student_exercise_history",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/student_learned_words",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/student_words_not_studied",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/student_activity_overview",
+    "method": "POST",
+    "file": "..\\src\\api\\studentStatsForTeachers.js"
+  },
+  {
+    "path": "/is_teacher",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/teacher_texts",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/create_own_cohort",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/remove_cohort/",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/update_cohort/",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/add_colleague_to_cohort",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/get_cohorts_for_article/",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/cohorts_info",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/add_article_to_cohort",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/delete_article_from_cohort",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/users_from_cohort/",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/cohort_name/",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/parse_url",
+    "method": "POST",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/remove_user_from_cohort/",
+    "method": "GET",
+    "file": "..\\src\\api\\teacher.js"
+  },
+  {
+    "path": "/get_one_translation/",
+    "method": "POST",
+    "file": "..\\src\\api\\translations.js"
+  },
+  {
+    "path": "/get_multiple_translations/",
+    "method": "POST",
+    "file": "..\\src\\api\\translations.js"
+  },
+  {
+    "path": "/contribute_translation/",
+    "method": "POST",
+    "file": "..\\src\\api\\translations.js"
+  },
+  {
+    "path": "/update_bookmark/",
+    "method": "POST",
+    "file": "..\\src\\api\\translations.js"
+  },
+  {
+    "path": "/user_articles/recommended",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_articles/recommended/",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_articles/foryou",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_articles/saved/",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/search/",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/latest_search/",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/search/",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_articles/starred_or_liked",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/cohort_articles",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_article",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_article",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/article_opened",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/find_or_create_article",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/remove_ml_suggestion",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/make_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/remove_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/is_article_language_supported",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/send_feedback",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/article_difficulty_feedback",
+    "method": "POST",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/get_unfinished_user_reading_sessions",
+    "method": "GET",
+    "file": "..\\src\\api\\userArticles.js"
+  },
+  {
+    "path": "/user_languages",
+    "method": "GET",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/user_settings",
+    "method": "POST",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/user_languages/modify",
+    "method": "POST",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/user_preferences",
+    "method": "GET",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/save_user_preferences",
+    "method": "POST",
+    "file": "..\\src\\api\\userDetails.js"
+  },
+  {
+    "path": "/available_topics",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/subscribed_topics",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/subscribed_searches",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/subscribe_topic",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/unsubscribe_topic",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/subscribe_search/",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/unsubscribe_search",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/subscribe_to_email_search/",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/unsubscribe_from_email_search/",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/filtered_topics",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/filtered_searches",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/filter_topic",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/filter_search/",
+    "method": "GET",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/unfilter_search",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/unfilter_topic",
+    "method": "POST",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "/activity_by_day",
+    "method": "GET",
+    "file": "..\\src\\api\\userStats.js"
+  },
+  {
+    "path": "/user_video",
+    "method": "GET",
+    "file": "..\\src\\api\\userVideos.js"
+  },
+  {
+    "path": "/video_set_playback",
+    "method": "POST",
+    "file": "..\\src\\api\\userVideos.js"
+  },
+  {
+    "path": "/video_opened",
+    "method": "POST",
+    "file": "..\\src\\api\\userVideos.js"
+  },
+  {
+    "path": "/bookmarks_by_day",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/bookmark_counts_by_date",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/starred_bookmarks/",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/learned_bookmarks/",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/total_learned_bookmarks",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/top_bookmarks/",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/bookmarks_for_article/",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/bookmarks_to_study_for_article/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/bookmarks_to_study_for_article/",
+    "method": "GET",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/unstar_bookmark/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/star_bookmark/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/delete_bookmark/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/is_fit_for_study/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/not_fit_for_study/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/use_in_exercises/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/dont_use_in_exercises/",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "/watching_session_start",
+    "method": "POST",
+    "file": "..\\src\\api\\watching_sessions.js"
+  },
+  {
+    "path": "/watching_session_update",
+    "method": "POST",
+    "file": "..\\src\\api\\watching_sessions.js"
+  },
+  {
+    "path": "https://raw.githubusercontent.com/zeeguu/browser-extension/main/PRIVACY.md",
+    "method": "GET",
+    "file": "..\\src\\pages\\onboarding\\CreateAccount.js"
+  }
+]

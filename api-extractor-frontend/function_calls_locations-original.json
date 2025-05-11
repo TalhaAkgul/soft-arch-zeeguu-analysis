@@ -1,0 +1,1022 @@
+[
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\LogIn.js"
+  },
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\onboarding\\CreateAccount.js"
+  },
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\LogIn.js"
+  },
+  {
+    "path": "get_user_details",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\onboarding\\CreateAccount.js"
+  },
+  {
+    "path": "validate",
+    "method": "GETPLAINTEXT",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "delete_user",
+    "method": "POST",
+    "file": "..\\src\\pages\\DeleteAccount\\DeleteAccount.js"
+  },
+  {
+    "path": "send_code/${...}",
+    "method": "POST",
+    "file": "..\\src\\pages\\ResetPassword.js"
+  },
+  {
+    "path": "send_code/${...}",
+    "method": "POST",
+    "file": "..\\src\\pages\\ResetPasswordStep1.js"
+  },
+  {
+    "path": "reset_password/${...}",
+    "method": "POST",
+    "file": "..\\src\\pages\\ResetPasswordStep2.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SearchField.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SearchField.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SubscribeSearchButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SubscribeSearchButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SubscribeToEmailNotificationsButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\SubscribeToEmailNotificationsButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\articles\\UnfinishedArticleList.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\Congratulations.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesForArticle.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesForArticle.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesForArticle.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesRouter.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesRouter.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExercisesRouter.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\pages\\onboarding\\ExtensionInstalled.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\reader\\ReportBroken.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\Word.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\Word.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\WordsForArticle.js"
+  },
+  {
+    "path": "upload_user_activity_data",
+    "method": "POST",
+    "file": "..\\src\\words\\WordsForArticle.js"
+  },
+  {
+    "path": "scheduled_bookmarks_to_study/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "scheduled_bookmarks_to_study/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useExerciseNotification.js"
+  },
+  {
+    "path": "top_bookmarks_to_study_count",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "top_bookmarks_to_study_count",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "top_bookmarks_to_study/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "get_total_bookmarks_in_pipeline",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "report_exercise_outcome",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "report_exercise_outcome",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "report_exercise_outcome",
+    "method": "POST",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "similar_words/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\exerciseTypes\\multipleChoice\\MultipleChoice.js"
+  },
+  {
+    "path": "/create_confusion_words",
+    "method": "POST",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "/annotate_clues",
+    "method": "POST",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "/get_smaller_context",
+    "method": "POST",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "exercise_session_start",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "exercise_session_update",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "exercise_session_update",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "exercise_session_update",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "exercise_session_end",
+    "method": "POST",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "/get_paragraphs",
+    "method": "POST",
+    "file": "..\\src\\reader\\TranslatableText.js"
+  },
+  {
+    "path": "upload_own_text",
+    "method": "POST",
+    "file": "..\\src\\reader\\TopToolbar.js"
+  },
+  {
+    "path": "upload_own_text",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\AddURLDialog.js"
+  },
+  {
+    "path": "upload_own_text",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\EditText.js"
+  },
+  {
+    "path": "update_own_text/${...}",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\EditText.js"
+  },
+  {
+    "path": "delete_own_text/${...}",
+    "method": "GETPLAINTEXT",
+    "file": "..\\src\\teacher\\myTextsPage\\EditText.js"
+  },
+  {
+    "path": "own_texts",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\ArticleHistory.js"
+  },
+  {
+    "path": "send_article_to_colleague",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\ShareWithColleagueDialog.js"
+  },
+  {
+    "path": "reading_session_start",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "reading_session_update",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "text_to_speech",
+    "method": "POST",
+    "file": "..\\src\\speech\\APIBasedSpeech.js"
+  },
+  {
+    "path": "mp3_of_full_article",
+    "method": "POST",
+    "file": "..\\src\\reader\\SoundPlayer.js"
+  },
+  {
+    "path": "mp3_of_full_article",
+    "method": "POST",
+    "file": "..\\src\\speech\\APIBasedSpeech.js"
+  },
+  {
+    "path": "mp3_of_full_article",
+    "method": "POST",
+    "file": "..\\src\\speech\\DeprecatedZeeguuSpeech.js"
+  },
+  {
+    "path": "join_cohort",
+    "method": "POST",
+    "file": "..\\src\\pages\\Settings\\MyClassrooms\\MyClassrooms.js"
+  },
+  {
+    "path": "leave_cohort/${...}",
+    "method": "GETPLAINTEXT",
+    "file": "..\\src\\pages\\Settings\\MyClassrooms\\MyClassrooms.js"
+  },
+  {
+    "path": "/student_info",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\ClassroomArticles.js"
+  },
+  {
+    "path": "/student_info",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\Settings\\MyClassrooms\\MyClassrooms.js"
+  },
+  {
+    "path": "/user_info",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\exercisesPage\\StudentExercisesInsights.js"
+  },
+  {
+    "path": "/user_info",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\readingPage\\StudentReadingInsights.js"
+  },
+  {
+    "path": "/user_info",
+    "method": "POST",
+    "file": "..\\src\\teacher\\_routing\\_ActivityInsightsRouter.js"
+  },
+  {
+    "path": "/student_reading_sessions",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\readingPage\\StudentReadingInsights.js"
+  },
+  {
+    "path": "/student_exercise_history",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\exercisesPage\\PractisedWordsList.js"
+  },
+  {
+    "path": "/student_learned_words",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\exercisesPage\\LearnedWordsList.js"
+  },
+  {
+    "path": "/student_words_not_studied",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\exercisesPage\\NonStudiedWordsList.js"
+  },
+  {
+    "path": "/student_activity_overview",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\StudentInfoLine.js"
+  },
+  {
+    "path": "/student_activity_overview",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\exercisesPage\\StudentExercisesInsights.js"
+  },
+  {
+    "path": "/student_activity_overview",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\readingPage\\StudentReadingInsights.js"
+  },
+  {
+    "path": "teacher_texts",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myTextsPage\\AllTexts.js"
+  },
+  {
+    "path": "/create_own_cohort",
+    "method": "APIPOST",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\CohortForm.js"
+  },
+  {
+    "path": "/remove_cohort/${...}",
+    "method": "APIPOST",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\CohortForm.js"
+  },
+  {
+    "path": "/update_cohort/${...}",
+    "method": "APIPOST",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\CohortForm.js"
+  },
+  {
+    "path": "/add_colleague_to_cohort",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\AddTeacherDialog.js"
+  },
+  {
+    "path": "/get_cohorts_for_article/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myTextsPage\\AddToCohortDialog.js"
+  },
+  {
+    "path": "cohorts_info",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\Home.js"
+  },
+  {
+    "path": "cohorts_info",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\StudentsActivityOverview.js"
+  },
+  {
+    "path": "cohorts_info",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myClassesPage\\readingPage\\StudentReadingInsights.js"
+  },
+  {
+    "path": "cohorts_info",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myTextsPage\\AddToCohortDialog.js"
+  },
+  {
+    "path": "add_article_to_cohort",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\AddToCohortDialog.js"
+  },
+  {
+    "path": "delete_article_from_cohort",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\AddToCohortDialog.js"
+  },
+  {
+    "path": "/users_from_cohort/${...}/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\StudentsActivityOverview.js"
+  },
+  {
+    "path": "/cohort_name/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\_routing\\_ActivityInsightsRouter.js"
+  },
+  {
+    "path": "parse_url",
+    "method": "POST",
+    "file": "..\\src\\teacher\\myTextsPage\\AddURLDialog.js"
+  },
+  {
+    "path": "remove_user_from_cohort/${...}/${...}",
+    "method": "GETPLAINTEXT",
+    "file": "..\\src\\teacher\\myClassesPage\\cohortsPage\\StudentsActivityOverview.js"
+  },
+  {
+    "path": "/get_one_translation/${...}/${...}",
+    "method": "APIPOST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "get_multiple_translations/${...}/${...}",
+    "method": "POST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "/update_bookmark/${...}",
+    "method": "APIPOST",
+    "file": "..\\src\\reader\\InteractiveText.js"
+  },
+  {
+    "path": "/update_bookmark/${...}",
+    "method": "APIPOST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "user_articles/recommended",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "user_articles/recommended/${...}/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "user_articles/foryou",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\RecommendedArticles.js"
+  },
+  {
+    "path": "user_articles/saved/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\OwnArticles.js"
+  },
+  {
+    "path": "user_articles/saved/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\OwnArticles.js"
+  },
+  {
+    "path": "search/${...}",
+    "method": "POST",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "latest_search/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\MySearches.js"
+  },
+  {
+    "path": "search/${...}/${...}",
+    "method": "POST",
+    "file": "..\\src\\articles\\FindArticles.js"
+  },
+  {
+    "path": "user_articles/starred_or_liked",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\BookmarkedArticles.js"
+  },
+  {
+    "path": "user_articles/starred_or_liked",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\_ArticlesRouter.js"
+  },
+  {
+    "path": "cohort_articles",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\ClassroomArticles.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\exerciseTypes\\orderWords\\OrderWords.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\reader\\TopToolbar.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\teacher\\myTextsPage\\EditText.js"
+  },
+  {
+    "path": "user_article?article_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\words\\WordsForArticle.js"
+  },
+  {
+    "path": "user_article",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "article_opened",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "/remove_ml_suggestion",
+    "method": "POST",
+    "file": "..\\src\\articles\\ArticlePreview.js"
+  },
+  {
+    "path": "/remove_ml_suggestion",
+    "method": "POST",
+    "file": "..\\src\\videos\\VideoPreview.js"
+  },
+  {
+    "path": "/make_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\articles\\SmallSaveArticleButton.js"
+  },
+  {
+    "path": "/make_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\components\\redirect_notification\\MobileNotification.js"
+  },
+  {
+    "path": "/make_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\components\\redirect_notification\\UnsupportedNotification.js"
+  },
+  {
+    "path": "/remove_personal_copy",
+    "method": "POST",
+    "file": "..\\src\\articles\\SmallSaveArticleButton.js"
+  },
+  {
+    "path": "/send_feedback",
+    "method": "POST",
+    "file": "..\\src\\components\\FeedbackModal.js"
+  },
+  {
+    "path": "/article_difficulty_feedback",
+    "method": "POST",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "/get_unfinished_user_reading_sessions",
+    "method": "GETJSON",
+    "file": "..\\src\\articles\\UnfinishedArticleList.js"
+  },
+  {
+    "path": "user_languages",
+    "method": "GETJSON",
+    "file": "..\\src\\components\\MainNav\\LanguageModal.js"
+  },
+  {
+    "path": "user_settings",
+    "method": "POST",
+    "file": "..\\src\\components\\MainNav\\LanguageModal.js"
+  },
+  {
+    "path": "user_settings",
+    "method": "POST",
+    "file": "..\\src\\pages\\Settings\\LanguageSettings.js"
+  },
+  {
+    "path": "user_settings",
+    "method": "POST",
+    "file": "..\\src\\pages\\Settings\\ProfileDetails.js"
+  },
+  {
+    "path": "user_preferences",
+    "method": "GETJSON",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "user_preferences",
+    "method": "GETJSON",
+    "file": "..\\src\\App.js"
+  },
+  {
+    "path": "user_preferences",
+    "method": "GETJSON",
+    "file": "..\\src\\exercises\\ExerciseSession.js"
+  },
+  {
+    "path": "user_preferences",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useUserPreferences.js"
+  },
+  {
+    "path": "user_preferences",
+    "method": "GETJSON",
+    "file": "..\\src\\pages\\Settings\\ExerciseTypePreferences.js"
+  },
+  {
+    "path": "save_user_preferences",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUserPreferences.js"
+  },
+  {
+    "path": "save_user_preferences",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUserPreferences.js"
+  },
+  {
+    "path": "save_user_preferences",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUserPreferences.js"
+  },
+  {
+    "path": "save_user_preferences",
+    "method": "POST",
+    "file": "..\\src\\pages\\Settings\\ExerciseTypePreferences.js"
+  },
+  {
+    "path": "available_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "available_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "subscribed_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "subscribed_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "subscribed_searches",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "subscribe_topic",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "unsubscribe_topic",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "subscribe_search/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "unsubscribe_search",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "subscribe_to_email_search/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "unsubscribe_from_email_search/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useSelectInterest.js"
+  },
+  {
+    "path": "filtered_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\api\\userInterests.js"
+  },
+  {
+    "path": "filtered_topics",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "filtered_searches",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "filter_topic",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "filter_search/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "unfilter_search",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "unfilter_topic",
+    "method": "POST",
+    "file": "..\\src\\hooks\\useUnwantedContentPreferences.js"
+  },
+  {
+    "path": "activity_by_day",
+    "method": "GETJSON",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "user_video?video_id=${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\videos\\VideoPlayer.js"
+  },
+  {
+    "path": "video_set_playback",
+    "method": "POST",
+    "file": "..\\src\\videos\\VideoPlayer.js"
+  },
+  {
+    "path": "video_opened",
+    "method": "POST",
+    "file": "..\\src\\videos\\VideoPlayer.js"
+  },
+  {
+    "path": "bookmarks_by_day",
+    "method": "POST",
+    "file": "..\\src\\words\\WordHistory.js"
+  },
+  {
+    "path": "bookmark_counts_by_date",
+    "method": "GETJSON",
+    "file": "..\\src\\userDashboard\\UserDashboard.js"
+  },
+  {
+    "path": "starred_bookmarks/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\words\\Starred.js"
+  },
+  {
+    "path": "learned_bookmarks/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\words\\Learned.js"
+  },
+  {
+    "path": "total_learned_bookmarks",
+    "method": "GETJSON",
+    "file": "..\\src\\words\\Learned.js"
+  },
+  {
+    "path": "top_bookmarks/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\words\\Top.js"
+  },
+  {
+    "path": "bookmarks_for_article/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "bookmarks_for_article/${...}",
+    "method": "GETJSON",
+    "file": "..\\src\\reader\\ArticleReader.js"
+  },
+  {
+    "path": "delete_bookmark/${...}",
+    "method": "POST",
+    "file": "..\\src\\reader\\LinkedWordListClass.js"
+  },
+  {
+    "path": "delete_bookmark/${...}",
+    "method": "POST",
+    "file": "..\\src\\reader\\LinkedWordListClass.js"
+  },
+  {
+    "path": "delete_bookmark/${...}",
+    "method": "POST",
+    "file": "..\\src\\reader\\TranslatableWord.js"
+  },
+  {
+    "path": "delete_bookmark/${...}",
+    "method": "POST",
+    "file": "..\\src\\reader\\TranslatableWord.js"
+  },
+  {
+    "path": "delete_bookmark/${...}",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "is_fit_for_study/${...}",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "not_fit_for_study/${...}",
+    "method": "POST",
+    "file": "..\\src\\api\\userWords.js"
+  },
+  {
+    "path": "use_in_exercises/${...}",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "use_in_exercises/${...}",
+    "method": "POST",
+    "file": "..\\src\\words\\Word.js"
+  },
+  {
+    "path": "dont_use_in_exercises/${...}",
+    "method": "POST",
+    "file": "..\\src\\words\\EditBookmarkButton.js"
+  },
+  {
+    "path": "dont_use_in_exercises/${...}",
+    "method": "POST",
+    "file": "..\\src\\words\\Word.js"
+  },
+  {
+    "path": "watching_session_start",
+    "method": "POST",
+    "file": "..\\src\\videos\\VideoPlayer.js"
+  },
+  {
+    "path": "watching_session_update",
+    "method": "POST",
+    "file": "..\\src\\videos\\VideoPlayer.js"
+  }
+]
