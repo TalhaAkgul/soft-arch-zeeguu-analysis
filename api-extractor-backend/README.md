@@ -16,4 +16,4 @@
 
 1. Run `extract_api_endpoints.py`.
 2. Put the json file frontend generated 
-2. Run `compare.py` to generate visualizations and detect unused or missing API mappings.
+3. Run `compare.py` to generate visualizations and detect unused or missing API mappings.
