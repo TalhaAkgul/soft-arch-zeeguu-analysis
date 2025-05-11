@@ -1,0 +1,902 @@
+[
+  {
+    "path": "/delete_user",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/add_user/<email>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/add_basic_user/<email>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/add_anon_user",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/send_code/<email>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/reset_password/<email>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\accounts.py"
+  },
+  {
+    "path": "/upload_user_activity_data",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\activity_tracking.py"
+  },
+  {
+    "path": "/days_since_last_use",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\activity_tracking.py"
+  },
+  {
+    "path": "/find_or_create_article",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\article.py"
+  },
+  {
+    "path": "/make_personal_copy",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\article.py"
+  },
+  {
+    "path": "/remove_personal_copy",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\article.py"
+  },
+  {
+    "path": "/is_article_language_supported",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\article.py"
+  },
+  {
+    "path": "/remove_ml_suggestion",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\article.py"
+  },
+  {
+    "path": "/user_words",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/learned_bookmarks/<int:count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/total_learned_bookmarks",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/starred_bookmarks/<int:count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_by_day",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_for_article/<int:article_id>/<int:user_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_to_study_for_article/<int:article_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_to_study_for_article/<int:article_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_for_article/<int:article_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/bookmarks_for_article/<int:article_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/delete_bookmark/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/report_correct_mini_exercise/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/use_in_exercises/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/dont_use_in_exercises/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/is_fit_for_study/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/not_fit_for_study/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/star_bookmark/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/unstar_bookmark/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\bookmarks_and_words.py"
+  },
+  {
+    "path": "/scheduled_bookmarks_to_study/<bookmark_count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/scheduled_bookmarks_to_study/<bookmark_count>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/top_bookmarks_to_study_count",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/top_bookmarks_to_study/<bookmark_count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/bookmarks_to_learn_not_scheduled",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/bookmarks_to_learn_not_scheduled",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/bookmarks_in_pipeline",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/bookmarks_in_pipeline",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/has_bookmarks_in_pipeline_to_review",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/has_bookmarks_to_review",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/new_bookmarks_to_study/<bookmark_count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/get_total_bookmarks_in_pipeline",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/get_exercise_log_for_bookmark/<bookmark_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/report_exercise_outcome",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/similar_words/<bookmark_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercises.py"
+  },
+  {
+    "path": "/exercise_session_start",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercise_sessions.py"
+  },
+  {
+    "path": "/exercise_session_update",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercise_sessions.py"
+  },
+  {
+    "path": "/exercise_session_end",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\exercise_sessions.py"
+  },
+  {
+    "path": "/exercise_session_info/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\exercise_sessions.py"
+  },
+  {
+    "path": "/is_feature_enabled/<feature_name>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\feature_toggles.py"
+  },
+  {
+    "path": "/do_some_spacy",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/create_confusion_words",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/annotate_clues",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/get_shorter_similar_sents_in_article",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/get_smaller_context",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/tokenize_text",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/tokenize_sents",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/get_paragraphs",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\nlp.py"
+  },
+  {
+    "path": "/upload_own_text",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\own_texts.py"
+  },
+  {
+    "path": "/own_texts",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\own_texts.py"
+  },
+  {
+    "path": "/delete_own_text/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\own_texts.py"
+  },
+  {
+    "path": "/update_own_text/<article_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\own_texts.py"
+  },
+  {
+    "path": "/reading_session_start",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\reading_sessions.py"
+  },
+  {
+    "path": "/reading_session_update",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\reading_sessions.py"
+  },
+  {
+    "path": "/reading_session_end",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\reading_sessions.py"
+  },
+  {
+    "path": "/reading_session_info/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\reading_sessions.py"
+  },
+  {
+    "path": "/subscribe_search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/unsubscribe_search",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/subscribed_searches",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/filter_search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/unfilter_search",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/filtered_searches",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/search/<search_terms>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/search/<search_terms>/<int:page>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/search/<search_terms>/<int:page>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/latest_search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/subscribe_to_email_search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/unsubscribe_from_email_search/<search_terms>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\search.py"
+  },
+  {
+    "path": "/session/<email>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\sessions.py"
+  },
+  {
+    "path": "/get_anon_session/<uuid>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\sessions.py"
+  },
+  {
+    "path": "/validate",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\sessions.py"
+  },
+  {
+    "path": "/is_up",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\sessions.py"
+  },
+  {
+    "path": "/logout_session",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\sessions.py"
+  },
+  {
+    "path": "/text_to_speech",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\speech.py"
+  },
+  {
+    "path": "/mp3_of_full_article",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\speech.py"
+  },
+  {
+    "path": "/join_cohort",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\student.py"
+  },
+  {
+    "path": "/student_info",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\student.py"
+  },
+  {
+    "path": "/cohort_name/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\student.py"
+  },
+  {
+    "path": "/system_languages",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\system_languages.py"
+  },
+  {
+    "path": "/available_languages",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\system_languages.py"
+  },
+  {
+    "path": "/available_native_languages",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\system_languages.py"
+  },
+  {
+    "path": "/ping",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\system_languages.py"
+  },
+  {
+    "path": "/subscribe_topic",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/unsubscribe_topic",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/subscribed_topics",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/available_topics",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/filter_topic",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/unfilter_topic",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/filtered_topics",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\topics.py"
+  },
+  {
+    "path": "/get_one_translation/<from_lang_code>/<to_lang_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\translation.py"
+  },
+  {
+    "path": "/get_multiple_translations/<from_lang_code>/<to_lang_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\translation.py"
+  },
+  {
+    "path": "/update_bookmark/<bookmark_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\translation.py"
+  },
+  {
+    "path": "/contribute_translation/<from_lang_code>/<to_lang_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\translation.py"
+  },
+  {
+    "path": "/basic_translate/<from_lang_code>/<to_lang_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\translation.py"
+  },
+  {
+    "path": "/learned_language",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/learned_language/<language_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/native_language",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/native_language/<language_code>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/learned_and_native_language",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/get_unfinished_user_reading_sessions",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/get_unfinished_user_reading_sessions/<int:total_sessions>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/get_user_details",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/user_settings",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/send_feedback",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/leave_cohort/<cohort_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user.py"
+  },
+  {
+    "path": "/user_article",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/article_difficulty_feedback",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/article_opened",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/user_article",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/parse_html",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/parse_url",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_article.py"
+  },
+  {
+    "path": "/user_articles/recommended",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/recommended/<int:count>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/recommended/<int:count>/<int:page>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/saved",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/saved/<int:page>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/topic_filtered",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/starred_or_liked",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/cohort_articles",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_articles/foryou",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_articles.py"
+  },
+  {
+    "path": "/user_languages/modify",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_languages.py"
+  },
+  {
+    "path": "/user_languages/delete/<language_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_languages.py"
+  },
+  {
+    "path": "/user_languages",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_languages.py"
+  },
+  {
+    "path": "/user_languages/reading",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_languages.py"
+  },
+  {
+    "path": "/user_languages/interesting_for_reading",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_languages.py"
+  },
+  {
+    "path": "/get_notification_for_user",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_notifications.py"
+  },
+  {
+    "path": "/set_notification_click_date",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_notifications.py"
+  },
+  {
+    "path": "/user_preferences",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_preferences.py"
+  },
+  {
+    "path": "/save_user_preferences",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_preferences.py"
+  },
+  {
+    "path": "/bookmark_counts_by_date",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_statistics.py"
+  },
+  {
+    "path": "/activity_by_day",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_statistics.py"
+  },
+  {
+    "path": "/user_video",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\user_video.py"
+  },
+  {
+    "path": "/video_opened",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_video.py"
+  },
+  {
+    "path": "/video_set_playback",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_video.py"
+  },
+  {
+    "path": "/watching_session_start",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_watching_session.py"
+  },
+  {
+    "path": "/watching_session_update",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\user_watching_session.py"
+  },
+  {
+    "path": "/send_article_to_colleague",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/add_article_to_cohort",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/upload_articles/<cohort_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/get_cohorts_for_article/<article_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/delete_article_from_cohort",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/remove_article_from_cohort/<cohort_id>/<article_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/cohort_files/<cohort_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/teacher_texts",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\article_management.py"
+  },
+  {
+    "path": "/remove_cohort/<cohort_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/create_own_cohort",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/update_cohort/<cohort_id>",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/users_from_cohort/<id>/<duration>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/cohorts_info",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/cohort_info/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/add_colleague_to_cohort",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/remove_user_from_cohort/<user_id>/<cohort_id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\cohorts.py"
+  },
+  {
+    "path": "/is_teacher",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\general.py"
+  },
+  {
+    "path": "/has_permission_for_cohort/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\general.py"
+  },
+  {
+    "path": "/has_permission_for_user_info/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\general.py"
+  },
+  {
+    "path": "/users_by_teacher/<duration>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\general.py"
+  },
+  {
+    "path": "/invite_code_usable/<invite_code>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\general.py"
+  },
+  {
+    "path": "/basic_user_info/<id>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student.py"
+  },
+  {
+    "path": "/user_info",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student.py"
+  },
+  {
+    "path": "/cohort_member_bookmarks",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student.py"
+  },
+  {
+    "path": "/cohort_member_bookmarks/<id>/<time_period>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student.py"
+  },
+  {
+    "path": "/user_info/<id>/<duration>",
+    "method": "GET",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student.py"
+  },
+  {
+    "path": "/student_exercise_correctness",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_exercises.py"
+  },
+  {
+    "path": "/student_exercise_history",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_exercises.py"
+  },
+  {
+    "path": "/student_activity_overview",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_overviews.py"
+  },
+  {
+    "path": "/student_reading_sessions",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_readings.py"
+  },
+  {
+    "path": "/student_words_not_studied",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_words.py"
+  },
+  {
+    "path": "/student_learned_words",
+    "method": "POST",
+    "file": "../zeeguu\\api\\endpoints\\teacher_dashboard\\student_words.py"
+  }
+]
